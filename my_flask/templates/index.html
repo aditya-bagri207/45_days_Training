@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Heart Disease Prediction</h1>
+
+<form action="/predict" method="POST">
+
+    <p><i>Enter ur age :-</i></p>
+
+    <input type="number" name="age" required>
+
+    <input type="submit" value="Predict">
+
+</form>
+
+<h2>{{ result }}</h2>
+
+</body>
+</html>

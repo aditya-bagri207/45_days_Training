@@ -1,0 +1,20 @@
+body{
+
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h1{
+    color: darkblue;
+}
+
+input{
+    padding:10px;
+    margin:5px;
+}
+
+input{
+    background-color: blue;
+    color:white;
+    border:none;
+}
